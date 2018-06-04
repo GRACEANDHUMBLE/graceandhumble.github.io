@@ -66,8 +66,8 @@
 	width:86px;
 	height:16px;
 	top:32px;
-	background:url('../images/logo.png') no-repeat center center;
-	background-size:86px 16px;
+	background: url('../images/1525195475608.png' ) no-repeat center center;
+	background-size:1032px 358px;
 	-webkit-transition : all 0.3s ease-out;
 	-moz-transition : all 0.3s ease-out;
 	-o-transition :all 0.3s ease-out;
@@ -102,25 +102,18 @@ ul.slimmenu li ul {
 	box-shadow: 0 0 15px rgba(0,0,0,0.2);
 }
 
-
-
-
-
-
-.logo{
-	position:absolute;
-	width:134px;
-	height:25px;
-	z-index:10000;
-	left:40px;
-	top:50px;
-	background:url('../images/1525195475608.png') no-repeat center center;
-	background-size:95px 25px;
-	-webkit-transition : all 0.3s ease-out;
-	-moz-transition : all 0.3s ease-out;
-	-o-transition :all 0.3s ease-out;
-	transition : all 0.3s ease-out;
+.LOGO{
+    position: fixed;
+    float: left;
+     margin: 9px 7px;
+    color: #fff;
+    font-weight:bold;
 }
+
+.LOGO a img{
+    height: 6vh;
+}
+
 
 
 
@@ -496,7 +489,7 @@ ul.slimmenu.collapsed li > ul {
 	left: 0;
 	top:0;
 	right:0;
-	background:url('../images/1a.jpg')no-repeat center center;
+	background:url('../images/IMG-20180518-WA0060.jpg')no-repeat center center;
 	background-size:cover;
 	width: 100%;
 	height: 100%;
@@ -510,7 +503,7 @@ video#video_background_home {
 	min-width: 100%;
 	width: auto;
 	height: auto;
-	z-index: -1;
+	z-index:2;
 	overflow: hidden;
     -webkit-transform: translateX(-50%) translateY(-50%);
     -moz-transform: translateX(-50%) translateY(-50%);
@@ -674,7 +667,7 @@ video#video_background_home {
 /* #Moving Home Background
 ================================================== */
 .moving-home {
-	background: url('../images/moving-home.jpg') repeat scroll;
+	background: url('../images/IMG_20180518_232804_764.jpg' ) repeat scroll;
 	position: absolute;
 	background-size:cover;
 	top: 0; 
@@ -819,7 +812,7 @@ a.scroll-down.scroll-yt {
 	position: absolute; 
 	top: 50%;
 	margin-top:35px;
-	color:#000;
+	color:#ff817f;
 	width: 100%;
 	font-family: 'Satisfy', cursive;
 	text-align:center;
@@ -928,7 +921,7 @@ a.scroll-down.scroll-yt {
   color: #263b40;
 }
 .cd-half-block:nth-of-type(1) {
-  height: 60vh;
+  height: 120vh;
   background-color: #263b40;
   background-position: center center;
   background-repeat: no-repeat;
@@ -977,19 +970,19 @@ a.scroll-down.scroll-yt {
 
 
 .cd-section:nth-of-type(2) .cd-half-block:first-of-type {
-  background-image: url("../images/img-1.jpg");
+  background-image: url('../images/IMG-20180518-WA0068.jpg');
   background-size: cover;
 }
 .cd-section:nth-of-type(3) .cd-half-block:first-of-type {
-  background-image: url("../images/img-2.jpg");
+  background-image: url("../images/IMG-20180518-WA0068.jpg");
   background-size: cover;
 }
 .cd-section:nth-of-type(4) .cd-half-block:first-of-type {
-  background-image: url("../images/img-3.jpg");
+  background-image: url("../images/IMG-20180518-WA0068.jpg");
   background-size: cover;
 }
 .cd-section:nth-of-type(5) .cd-half-block:first-of-type {
-  background-image: url("../images/img-4.jpg");
+  background-image: url("../images/IMG-20180518-WA0068.jpg");
   background-size: cover;
 }
 @media only screen and (min-width: 1170px) {
@@ -1209,7 +1202,7 @@ a.scroll-down.scroll-yt {
 	position:relative;
 	width:100%;
 	overflow:hidden;
-	background:url('../images/about.jpg') no-repeat top center;
+	background:url('../images/IMG-20180518-WA0056.jpg') no-repeat top center;
 	background-size:cover;
 } 
 
@@ -1379,7 +1372,7 @@ a.scroll-down.scroll-yt {
 	position:relative;
 	width:100%;
 	overflow:hidden;
-	background:url('../images/portfolio/work-top.jpg') no-repeat center center;
+	background:url('../images/IMG-20180518-WA0057.jpg') no-repeat center center;
 	background-size:cover;
 } 
 
